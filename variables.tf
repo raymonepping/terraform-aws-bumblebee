@@ -1,3 +1,8 @@
+variable "waypoint_application" {
+  description = "Name of the Waypoint application"
+  type        = string
+}
+
 variable "project_name" {
   description = "Project name for tagging"
   type        = string
